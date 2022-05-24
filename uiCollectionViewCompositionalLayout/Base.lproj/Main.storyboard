@@ -37,6 +37,10 @@
                                         <size key="customSize" width="414" height="77"/>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="LOR-Bp-SAx"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="QHN-sE-B3A"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
