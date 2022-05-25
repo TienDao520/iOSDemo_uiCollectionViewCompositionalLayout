@@ -41,16 +41,16 @@ class ViewController: UIViewController {
 //         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: item, count: 2)
         
         //Vertical layout
-         let group = NSCollectionLayoutGroup.vertical(layoutSize: groupSize, subitem: item, count: 3)
+//         let group = NSCollectionLayoutGroup.vertical(layoutSize: groupSize, subitem: item, count: 3)
         
-        //sub group
-//        let subgroup = NSCollectionLayoutGroup.vertical(layoutSize: NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.5), heightDimension: .fractionalHeight(0.5)), subitem: item, count: 2)
-//
-//        let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: subgroup, count: 2)
+        //sub group inside another group
+        let subgroup = NSCollectionLayoutGroup.vertical(layoutSize: NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.5), heightDimension: .fractionalHeight(0.5)), subitem: item, count: 2)
+
+        let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: subgroup, count: 2)
         
         let section = NSCollectionLayoutSection(group: group)
         //Added spacing between the section
-        section.interGroupSpacing = 30
+        section.interGroupSpacing = 0
         
         return UICollectionViewCompositionalLayout(section: section)
         
