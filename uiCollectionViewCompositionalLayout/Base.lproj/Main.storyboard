@@ -44,7 +44,7 @@
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="Vxk-qU-ghu" secondAttribute="trailing" constant="186" id="1Vg-hd-h7L"/>
                                                 <constraint firstAttribute="bottom" secondItem="Vxk-qU-ghu" secondAttribute="bottom" constant="28" id="AiU-Y7-Qwe"/>
-                                                <constraint firstItem="Vxk-qU-ghu" firstAttribute="leading" secondItem="38s-HU-jbq" secondAttribute="leading" constant="186" id="GUC-Df-NQJ"/>
+                                                <constraint firstItem="Vxk-qU-ghu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="38s-HU-jbq" secondAttribute="leading" constant="20" symbolic="YES" id="GUC-Df-NQJ"/>
                                                 <constraint firstItem="Vxk-qU-ghu" firstAttribute="top" secondItem="38s-HU-jbq" secondAttribute="top" constant="28" id="vWY-XH-ZQM"/>
                                             </constraints>
                                         </collectionViewCellContentView>
