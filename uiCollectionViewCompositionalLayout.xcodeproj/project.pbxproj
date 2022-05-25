@@ -14,6 +14,7 @@
 		37DF6743283D7DC50022DBE5 /* uiCollectionViewCompositionalLayout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37DF6741283D7DC50022DBE5 /* uiCollectionViewCompositionalLayout.xcdatamodeld */; };
 		37DF6745283D7DC50022DBE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37DF6744283D7DC50022DBE5 /* Assets.xcassets */; };
 		37DF6748283D7DC50022DBE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37DF6746283D7DC50022DBE5 /* LaunchScreen.storyboard */; };
+		37DF6750283DC5AC0022DBE5 /* ItemsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DF674F283DC5AC0022DBE5 /* ItemsCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		37DF6744283D7DC50022DBE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37DF6747283D7DC50022DBE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37DF6749283D7DC50022DBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37DF674F283DC5AC0022DBE5 /* ItemsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				37DF6746283D7DC50022DBE5 /* LaunchScreen.storyboard */,
 				37DF6749283D7DC50022DBE5 /* Info.plist */,
 				37DF6741283D7DC50022DBE5 /* uiCollectionViewCompositionalLayout.xcdatamodeld */,
+				37DF674F283DC5AC0022DBE5 /* ItemsCollectionViewCell.swift */,
 			);
 			path = uiCollectionViewCompositionalLayout;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				37DF6743283D7DC50022DBE5 /* uiCollectionViewCompositionalLayout.xcdatamodeld in Sources */,
 				37DF673D283D7DC50022DBE5 /* ViewController.swift in Sources */,
 				37DF6739283D7DC50022DBE5 /* AppDelegate.swift in Sources */,
+				37DF6750283DC5AC0022DBE5 /* ItemsCollectionViewCell.swift in Sources */,
 				37DF673B283D7DC50022DBE5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
