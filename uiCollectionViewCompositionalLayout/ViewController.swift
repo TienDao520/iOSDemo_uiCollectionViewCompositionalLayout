@@ -38,10 +38,10 @@ class ViewController: UIViewController {
 //        let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
         
         //basic grid
-         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: item, count: 2)
+//         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: item, count: 2)
         
         //Vertical layout
-        // let group = NSCollectionLayoutGroup.vertical(layoutSize: groupSize, subitems: item, count: 3)
+         let group = NSCollectionLayoutGroup.vertical(layoutSize: groupSize, subitem: item, count: 3)
         
         //sub group
 //        let subgroup = NSCollectionLayoutGroup.vertical(layoutSize: NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.5), heightDimension: .fractionalHeight(0.5)), subitem: item, count: 2)
@@ -63,7 +63,7 @@ class ViewController: UIViewController {
                 fatalError("Index Is invalid")
             }
             
-            cell.itemLabel.text = "(\(number)"
+            cell.itemLabel.text = "(\(number))"
             cell.backgroundColor = self.randomColor()
             return cell
             
