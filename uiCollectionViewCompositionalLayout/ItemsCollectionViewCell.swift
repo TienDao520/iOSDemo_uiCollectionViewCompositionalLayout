@@ -8,5 +8,6 @@
 import UIKit
 
 class ItemsCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var itemLabel: UILabel!
     
 }
